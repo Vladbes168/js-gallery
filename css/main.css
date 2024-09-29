@@ -38,6 +38,17 @@ body {
   align-items: center;
 }
 
+.search__container .search__form {
+  position: relative;
+}
+.search__container .search__form .clear__btn {
+  z-index: 5;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
 .search__input {
   width: 100%;
   padding: 12px 24px;
@@ -58,6 +69,7 @@ body {
   backface-visibility: hidden;
   transform-style: preserve-3d;
   background-color: #ffffff;
+  text-align: center;
 }
 .search__input::-moz-placeholder {
   color: color(#f8f8f8 a(0.8));
@@ -72,12 +84,13 @@ body {
   letter-spacing: 1.5px;
 }
 .search__input:focus {
-  padding: 12px 2px;
+  padding: 6px 6px;
   outline: 0;
   border: 1px solid transparent;
   border-bottom: 1px solid #c7c7c7;
   border-radius: 20px;
-  background-position: 100% center;
+  background-image: url();
+  font-size: 24px;
 }
 
 .footer__line {
@@ -105,6 +118,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.gallery .crads__container {
+  background-image: url("https://images.unsplash.com/photo-1726065809961-bbfd67737399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NTg2NDF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2MTIyNjV8&ixlib=rb-4.0.3&q=80&w=400");
+  width: 100%;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
 .gallery .crads__container img {
   max-width: 100%;
+  max-height: 100%;
 }/*# sourceMappingURL=main.css.map */

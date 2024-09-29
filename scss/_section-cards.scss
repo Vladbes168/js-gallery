@@ -11,8 +11,15 @@
     align-items: center;
   }
   .crads__container {
+    background-image: url("https://images.unsplash.com/photo-1726065809961-bbfd67737399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NTg2NDF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2MTIyNjV8&ixlib=rb-4.0.3&q=80&w=400");
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+    background-position: center;
+
     & img {
       max-width: 100%;
+      max-height: 100%;
     }
   }
 }
