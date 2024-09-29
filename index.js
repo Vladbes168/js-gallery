@@ -87,4 +87,4 @@ function addToPageImage(urls) {
     imagesContainer.appendChild(div)
 }
 
-// fetchImages()
+fetchImages()
