@@ -102,18 +102,3 @@ body {
     }
   }
 }
-
-.footer {
-  &__line {
-    width: 100%;
-    border: 1px solid #ffd43b;
-  }
-
-  &__container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
